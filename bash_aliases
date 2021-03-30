@@ -12,5 +12,4 @@ alias update='sudo apt update && sudo apt upgrade && cat /etc/debian_version && 
  alias rm='rm -i'
  alias cp='cp -i'
  alias mv='mv -i'
-#cwc chromium
-export PATH="$PATH:${HOME}/depot_tools"
+
