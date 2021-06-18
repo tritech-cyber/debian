@@ -1,8 +1,8 @@
 #!/bin/bash
-#system update
+#system update .  Install these packages as "su -"
 apt update -y;
 apt upgrade  -y;
-apt install git;
+apt install git -y;
 apt install curl -y;
 apt install net-tool -ys;
 apt install geany geany-plugins sudo chromium -y;
