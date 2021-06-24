@@ -5,7 +5,7 @@
 
 #	 NOTE2: User running the script MUST be a sudoer. It is
 #	 convenient to be able to sudo without a password.
-sudo dnf install tcpdump;
+sudo apt install tcpdump;
 #
 sudo groupadd pcap;
 sudo usermod -a -G pcap $USER;
