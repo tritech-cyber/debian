@@ -4,7 +4,7 @@ apt update -y;
 apt upgrade  -y;
 apt install git -y;
 apt install curl -y;
-git install python2 python3 -y;
+apt install python2 python3 -y;
 apt install net-tool -y;
 apt install geany geany-plugins sudo chromium -y;
 apt  install build-essential gcc g++ make perl dkms -y;
