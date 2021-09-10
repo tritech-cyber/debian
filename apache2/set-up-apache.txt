@@ -1,0 +1,27 @@
+# Install apache2
+sudo apt install apache2
+sudo systemctl start apache2
+
+# Set user to apache group
+sudo groupadd apache
+sudo usermod -a -G apache yourusername
+sudo chgrp apache -R /var/www
+sudo chmod 775 -R /var/www
+#load groups to user
+id
+su - $USER
+id
+groups
+
+# Link /var/www/html to ~/
+ln -s /var/www/ ~/www
+
+# Move index.html to index.html.default
+cd ~/www/html/
+mv index.html index.html.default
+
+
+
+
+
+
